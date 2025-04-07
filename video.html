@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO</title>
+    <script src="https://kit.fontawesome.com/1877ae26b0.js" crossorigin="anonymous"></script>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.container{
+    position: relative;
+    height: 100vh;
+    overflow: auto;
+}
+.video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+video{
+    object-fit: fill;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.li2{
+    list-style: none;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+li:hover{
+            background-color: goldenrod;      
+            
+        }
+a{
+    text-decoration: none;
+}
+.one{
+    font-size: 58px;
+    text-align: center;
+    margin-top: 16%;
+}
+.three{
+    font-size: 45px;
+    text-align: center;
+    
+}
+.two{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.fr{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.form1{
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    height: 640px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+   
+
+}
+.form2{
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    height: 640px;
+    width: 500px;
+    border: 2px solid rgb(0, 0, 0);
+   
+
+}
+.button1{
+            padding: 14px;
+    width: 90%;
+    border-radius: 6px;
+    background-color: goldenrod;
+    color: rgb(0, 0, 0);
+    border: goldenrod;
+    margin-left: 4%;
+        }
+.input1{
+  
+            padding: 9px;
+            width: 90%;
+            font-size: 14px;
+            margin-left: 10px;
+            border-radius: 6px;
+            
+        }
+        .input2{
+            width: 47%;
+            align-items: center;
+            margin-left: 8%;
+        }
+        option{
+            color: rgb(54, 54, 54);
+        }
+       .button2{
+        
+        padding: 16px;
+    width: 19%;
+    margin-left: 40.5%;
+    border-radius: 6px;
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    border: goldenrod;
+   
+       }
+       .button2:hover{
+        background-color: gray;
+       }
+       .about{
+        height: 540px;
+    width: 470px;
+            margin-left: 450px;
+           color: rgb(1, 0, 2);
+           border: 2px solid black;
+           padding: 40px;
+          font-weight: 700;
+          text-align: center;
+
+       }
+       label{
+        font-size: 25px;
+        color: black;
+       text-align: left;
+       }
+       .input3{
+         width: 33%;
+         padding: 11px;
+         border-radius: 6px;
+    background-color: goldenrod;
+    color: rgb(255, 255, 255);
+    border: goldenrod;
+
+       }
+       .img2{
+        
+            width: 250px;
+            height: 200px;
+            margin-left:900px;
+       
+       }
+       .a2{
+            color:rgb(255, 255, 255);
+            font-size:25px ;
+            margin-left: 50px;
+        }
+        .box{
+    border: 4px solid goldenrod;
+    height: 300px;
+    width: 300px;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 9%;
+    
+}
+.img7{
+        display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+       }
+       .h4{
+        text-align: center;
+        font-size: 60px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container" id="first">
+        <div class="video">
+            <video src="sea.vid.mp4" height="100%" width="100%"
+            autoplay muted loop></video>
+        </div>
+        <div class="navbar">
+            <div class="home">
+                <a href="https://www.google.com/"><i class="fa-solid fa-magnifying-glass"></i></a> 
+              </div>
+            <ul>
+                <li class="li2"><a href="#first">HOME</a></li>
+                <li  class="li2"><a href="#crs">ABOUT US</a></li>
+                <li  class="li2"><a href="#abt">CONTACT</a></li>
+                <li  class="li2"><a href="#cont">LOG IN</a></li>
+            </ul>
+        </div>
+        <h1 class="one">THE CAREER GUIDANCE</h1> <br>
+        <h2 class="three">Build your career , start today! </h2> <br> 
+        <button class="button2"> <a style="color: white;"  href="#exp">EXPLORE MORE</a></button>
+    </div>
+        
+    <div class="contact" id="cont" >
+        <div class="video">
+            <video src="sea.vid.mp4" height="100%" width="100%"
+            autoplay muted loop></video>
+        </div>
+        <div class="form">
+        <div class="form1">
+            <h1 class="two" style="text-align: center; color: goldenrod;">USER SIGN IN FORM</h1> <br> <br>
+            <input class="input1" type="text" name="f-name" id="" placeholder="ENTER NAME"> <br><br>
+            <input class="input1" type="text" name="f-name" id="" placeholder="EMAIL"> <br><br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="PASSWORD"> <br><br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="PHONE"> <br><br>
+
+           
+            <select name="" id="" style="margin-left: 3%; font-size: 14px; color: rgb(71, 71, 71); padding: 8px; border-radius: 6px; width: 95%;">
+               <option value="">SELECT CITY</option>
+               <option value="">Karachi</option>
+               <option value="">Hyderabad</option>
+               <option value="">Islamabad</option>
+
+            </select>
+            <br><br>
+            <select name="" id="" style="margin-left: 3%; font-size: 14px; color: rgb(71, 71, 71); padding: 8px; border-radius: 6px; width: 95%;">
+                <option value="">HOW DO YOU KNOW ABOUT US?</option>
+                <option value="">Friends and Family</option>
+                <option value="">Print Media</option>
+                <option value="">Electronic Media</option>
+                <option value="">Social Media</option>
+            </select>
+            <br><br>
+            <button class="button1"> <a style="color: white;" href="">SUBMIT</a></button>
+    
+    
+        </div>
+        <div class="form2">
+            <h1 class="two" style="text-align: center; color: goldenrod;"> USER SIGN UP FORM</h1> <br> <br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="ENTER NAME"> <br><br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="EMAIL"> <br><br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="PASSWORD"> <br><br>
+            <input  class="input1" type="text" name="f-name" id="" placeholder="PHONE"> <br><br>
+
+            
+            <select name="" id="" style="margin-left: 3%; font-size: 14px; color: rgb(71, 71, 71); padding: 8px; border-radius: 6px; width: 95%;">
+               <option value="">SELECT CITY</option>
+               <option value="">Karachi</option>
+               <option value="">Hyderabad</option>
+               <option value="">Islamabad</option>
+
+            </select>
+            <br><br>
+            <select name="" id="" style="margin-left: 3%; font-size: 14px; color: rgb(71, 71, 71); padding: 8px; border-radius: 6px; width: 95%;">
+                <option value="">HOW DO YOU KNOW ABOUT US?</option>
+                <option value="">Friends and Family</option>
+                <option value="">Print Media</option>
+                <option value="">Electronic Media</option>
+                <option value="">Social Media</option>
+            </select>
+            <br><br>
+            <button class="button1"> <a style="color: white;" href="">SUBMIT</a></button>
+    
+        </div>
+    </div>
+    <div class="contact1" id="abt" >
+        <div class="video">
+            <video src="sea.vid.mp4" height="100%" width="100%"
+            autoplay muted loop></video>
+        </div>
+    <div class="about">
+        <h1 class="two" style="text-align: center; color: goldenrod;"> CONTACT US</h1> <br> <br>
+       <form action=""></form>
+    <div class="form-group">
+        <label for="fname">First Name:</label>
+        <input class="input2" style="margin-left: 30px;" type="text" name="f-name" id=""placeholder="First Name">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="fname">Last Name:</label>
+        <input class="input2"style="margin-left: 30px;" type="text" name="f-name" id=""placeholder="Last Name">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="fname">Phone Number:</label>
+        <input class="input2" style="margin-left: 10px;" type="text" name="f-name" id=""placeholder="Phone Number">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="fname">Email:</label>
+        <input class="input2" style="margin-left: 88px;"type="email" name="f-name" id=""placeholder="Valid Email">
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="fname">Password:</label>
+        <input class="input2" style="margin-left: 50px;" type="password" name="f-name" id=""placeholder="Password">
+    </div>
+    <br>
+
+    <br>
+    <div class="form-group">
+        <label for="fname">Gender:</label>
+        <input  type="radio" name="f-name" id="">
+        <label for="">Male</label>
+        <input type="radio" name="f-name" id="">
+        <label for="">Female</label>
+    </div>
+    <br>
+
+    <div>
+        <input class="input3" type="submit" name="" id="" placeholder="SUBMIT">
+    </div>
+    </div>
+    <div class="explore" id="exp">
+        <div class="video">
+            <video src="sea.vid.mp4" height="100%" width="100%"
+            autoplay muted loop></video>
+        </div>
+        <h1 class="fr" style="text-align: center; color: goldenrod;" > Best Online Learning Platforms - Starting Off on the Right Foot</h1>
+        <img class="img2" src="olp img.jpg" alt="">
+        <h2 style=" color: rgb(255, 255, 255);" >What Is an Online Learning Platform?</h2> <br><br>
+        <p style=" color: rgb(255, 255, 255);"> An online learning platform is a digital space that allows course creators to market, sell, and deliver their eLearning courses. They’re often referred to as “online course marketplaces.” Like traditional schools, such platforms offer learners a safe environment in which to learn, access course materials, and, in many cases, interact with both teachers and students alike. They offer a wide range of features, including, but not limited to lectures, assignments, quizzes, learning interactions, completion certificates, and social forums/chats. 
+            So, in a way, an online learning platform is kind of a catchall term for both businesses and learners. They help you create, catalog, market, and accept payment for your courses, while simultaneously providing all the tools and resources that learners need under one roof.</p>
+           <div class="video">
+            <video src="sea.vid.mp4" height="100%" width="100%"
+            autoplay muted loop></video>
+        </div>
+        <br>
+            <h4 style=" color: rgb(255, 255, 255); margin-left: 30px;">The best online learning platforms are.</h4>
+<br>
+            <a  class="a2" href="">1. Udemy Business</a> <br> <br>
+            <a  class="a2" href="">2. Skillshare</a> <br> <br>
+            <a  class="a2" href="">3. LinkedIn Learning</a> <br> <br>
+            <a  class="a2" href="">4. Coursera</a> <br> <br>
+            <a  class="a2" href="">5. edX</a> <br> <br>
+            <a  class="a2" href="">6. iSpring Market</a> <br> <br>
+            <a  class="a2" href="">7. Kajabi</a> <br> <br>
+            <a  class="a2" href="">8. Podia</a> <br> <br>
+            <a  class="a2" href="">9. iSpring Learn</a> <br> <br>
+            <a  class="a2" href="">10. SAP Litmos</a> <br> <br>
+           
+    </div>
+</div>
+<div class="course" id="crs">
+    <div class="video">
+        <video src="sea.vid.mp4" height="100%" width="100%"
+        autoplay muted loop></video>
+    </div>
+    <h1 class="h4">Courses:</h1>
+    <div class="img7">
+        
+        <div class="box"><img src="ap3.jpg" alt="">School & College going students</div>
+        <div class="box"><img src="ap4.jpg" alt="">University Students & working profession</div>
+        <div class="box"><img src="ap5.jpg" alt=""> Short Term Courses</div>
+        <div class="box"><img src="ap7.jpg" alt="">English Language</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
